@@ -3,3 +3,7 @@ body {
   background: black;
   font-family: Segoe UI Light, Segoe UI, Arial;
 }
+a {
+  color: white;
+  font-family: Arial;
+}
