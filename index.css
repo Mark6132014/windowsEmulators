@@ -28,7 +28,7 @@ html, body {
 }
 .setupexe .logo {
     height: 10vh;
-    width: 15%;
+    width: 30%;
     content: url("logo.png");
 }
 .setupstarttxt {
