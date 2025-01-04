@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        Windows Emulators
+    </title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="shortcut icon" href="icon.png">
+</head>
+<body>
+    <div class="setupexe"><center>
+        <header>
+            <span>
+                Windows Setup
+            </span>
+        </header>
+        <div class="logo"></div>
+        <button class="start" style="position: absolute; bottom: 50px; left: 50%; transform: translateX(-50%)">
+            Install Now
+        </button>
+        <div class="os" style="display: none;">
+            <div class="operatingSystem" onclick="os('windows-11')">Windows 11</div>
+            <div class="operatingSystem" onclick="os('windows10')">Windows 10</div>
+            <div class="operatingSystem" onclick="os('windows8')">Windows 8.1</div>
+        </div>
+    </center></div>
+    <h2 class="setupstarttxt" style="display: none;">Setup is starting</h2>
+    <script src="index.js"></script>
+</body>
+</html>
