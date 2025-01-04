@@ -27,8 +27,8 @@ html, body {
     margin: 8px;
 }
 .setupexe .logo {
-    height: 100px;
-    width: 300px;
+    height: 10vh;
+    width: 15%;
     content: url("logo.png");
 }
 .setupstarttxt {
